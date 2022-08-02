@@ -1,0 +1,128 @@
+/*ESTILOS BITACORA*/
+
+body{
+    margin: 0%;
+}
+
+.fondobi{
+    background-image: url(../imagenes/fondobitacora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    background-color: #F67F11;
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 5rem;
+}
+
+.login{
+    height: 5rem;
+}
+
+.contenedort{
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 4px;
+    justify-content: right;
+    background-color: rgba(255, 255, 255, 0.63);
+    /*background-color: #fff;*/
+}
+
+th, td{
+    border-radius: 2px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.salir{
+    text-decoration: none;
+    color: #fff;
+}
+
+.botontabla{
+    background-color: #b49a27;
+    float: right;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.botontabla a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.boton{
+    background-color: #b49a27;
+    float: right;
+    margin-top: 40px;
+    margin-right: 60px;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redess{
+    color: #fff;
+    font-family: 'Marcellus', serif;
+    font-size: 18px;
+}
+
+footer{
+    margin-top: 200px;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    background-color: #F67F11;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barrah2{
+    margin-top: 60px;
+    margin-left: 80px;
+    float: left;
+}
+
+.barrabusqueda{
+    margin-right: 640px;
+    border-radius: 5px;
+    width: 400px;
+    float: right;
+    margin-top: 60px;
+}
+
+.barrabusqueda input{
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 5px;
+    border: none;
+    width: 18rem;
+    height: 23px;
+    outline: none;
+}
+
+.barrabusqueda button{
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
